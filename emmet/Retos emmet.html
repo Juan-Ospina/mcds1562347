@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Retos Emmet </title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<h2>Navigation</h2>
+	<section>
+		<div class="ejemplo">	
+nav#mainnav.navbar.navbar-default.navbar-fixed-top.navbar-custon>div.container>(div.navbar-header.page-scroll>(button[type="button" class="nabvar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"]>span.sr-only{Toggly navigation}+{Menu}+i.fa.fa-bars)+a.navbar-brand.[href="page-top"])+div.collapse.navbar-collapse#bs-example-navbar-collapse-1>ul.nac.nav-navbar.navbar-right>(li.hidden>a[href="page-top"])+(li.page-scroll>a[href="#portfolio"]{portfolio})+(li.page-scroll>a[href="#about"]{About})+(li.page-scroll>a[href="#contact"]{contact})
+		</div>
+		<div class="resultado">
+			<xmp>
+<nav id="mainnav" class="navbar navbar-default navbar-fixed-top navbar-custon">
+	<div class="container">
+		<div class="navbar-header page-scroll"><button type="button" class="nabvar-toggle" 
+			data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span 
+			class="sr-only">Toggly navigation</span>Menu<i class="fa 
+			fa-bars"></i></button><a href="page-top" 
+			class="navbar-brand "></a></div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nac nav-navbar navbar-right">
+				<li class="hidden"><a href="page-top"></a></li>
+				<li class="page-scroll"><a href="#portfolio">portfolio</a></li>
+				<li class="page-scroll"><a href="#about">About</a></li>
+				<li class="page-scroll"><a href="#contact">contact</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+			</xmp>
+		</div>
+	</section>
+
+<!-- --------------------------- -->
+
+<h2>Header</h2>
+	<section>
+		<div class="ejemplo">	
+header>div.container.#maincontent[ tabindex="-1"]>div.col-lg-12>img.[class="img-response" src="img/profile.png" alt=""]+div.intro-text>h1.name{start bootsrap}+hr.start-light+span.skills{web Developer - Graphic Artist - user Experience Designer}
+		</div>
+		<div class="resultado">
+			<xmp>
+<header>
+	<div class="container " id="maincontent" tabindex="-1">
+		<div class="col-lg-12">
+			<img src="img/profile.png" alt="" class="img-response">
+			<div class="intro-text">
+				<h1 class="name">start bootsrap</h1>
+				<hr class="start-light">
+				<span class="skills">web Developer - Graphic Artist - 
+				user Experience Designer</span>
+			</div>
+		</div>
+	</div>
+</header>
+			</xmp>
+		</div>
+	</section>
+
+<!-- --------------------------- -->
+
+<h2>About</h2>
+	<section>
+		<div class="ejemplo">	
+section.succes.#about>(div.container>div.row>h2{About}+hr.start-light)+div.row>(div.col-lg--4.col-lg-offset-2>p{Freelancer is a free bootstrap theme created by start bootstrap. the dowload includesthe complete source files including HTML, css,  and JAVASCRIPT as well optional lees stylesheets for easy customization.})+(div.col-lg-4>p{whether you´re a student looking to showcase your work, a professional looking to attrack clients, or a graphic artist looking to share your projects, this template is the perfect satarting point})+div.col-lg-8.col-lg-offset-2.text-center>a[href="#"].btn.btn-lg.btn-outline>i.fa.fa-download{Dowload Theme}
+		</div>
+		<div class="resultado">
+			<xmp>
+<section class="succes " id="about">
+	<div class="container">
+		<div class="row">
+			<h2>About</h2>
+			<hr class="start-light">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg--4 col-lg-offset-2">
+			<p>Freelancer is a free bootstrap theme created by start bootstrap. the dowload
+			 includesthe complete source files including HTML, css,  and JAVASCRIPT as well 
+			optional lees stylesheets for easy customization.</p>
+		</div>
+		<div class="col-lg-4">
+			<p>whether you´re a student looking to showcase your work, a professional looking
+			to attrack clients, or a graphic artist looking to share your projects, this 
+		template is the perfect satarting point</p>
+		</div>
+		<div class="col-lg-8 col-lg-offset-2 text-center"><a href="#" class="btn btn-lg 
+			btn-outline"><i class="fa fa-download">Dowload Theme</i></a></div>
+	</div>
+</section>
+			</xmp>
+		</div>
+	</section>
+	
+<!-- --------------------------- -->
+
+<h2>Contact</h2>
+	<section>
+		<div class="ejemplo">	
+section#contact>div.container>(div.row>div.col-lg-12.text-center>h2{contact me}+hr.star-primary)+div.row>div.col-lg-8.col-lg-offset-2>form[name="sentMessage"]#contactForm[novalidate]>(div.row.control-group>div.form-group.col-xs-12.floating-label-form-group.controls>label[for="name"]{Name}+input[type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="plase enter yor name"]+p.help-block.text-danger)+(div.row.control-group>div.form-group.col-xs-12.floating-label-form-group.controls>label[for="email">Email Address]+input[type="email" class="from-control" placeholder="Email Address" id="email" required data-validation-required-message="place enter your mail address"]+p.help-block.text-danger)+(div.row.control-group>div.form-group.col-xs-12.floating-label-form-group.controls>label[for="message"]{Phone Number}+texarea[rows="5" class="form-control" placeholder="Phone Number" id="email" required data-validation-required-message="plase enter your phone number"]+p.help-block.text-danger)+(div.row.control-group>div.form-group.col-xs-12.floating-label-form-group.controls>label[for="message"]{Message}+textarea[rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="plase enter a message"]+p.help-block.text-danger)+br+div#succes+div.row>div.form--group.col-xs-12>button[type="submit"].btn.btn-succes.btn-lg{Send}
+		</div>
+		<div class="resultado">
+			<xmp>
+<section id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>contact me</h2>
+				<hr class="star-primary">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<form action="" name="sentMessage" id="contactForm" novalidate="">
+					<div class="row control-group">
+						<div class="form-group col-xs-12 floating-label-form-group
+						 controls">
+							<label for="name">Name</label>
+							<input type="text" class="form-control" 
+							placeholder="Name" id="name" required="" 
+							data-validation-required-message="plase 
+							enter yor name">
+							<p class="help-block text-danger"></p>
+						</div>
+					</div>
+					<div class="row control-group">
+						<div class="form-group col-xs-12 
+						floating-label-form-group controls">
+							<label for="email">Email" Address=""></label>
+							<input type="email" class="from-control" 
+							placeholder="Email Address" id="email" required=""
+							 data-validation-required-message="place enter 
+							 your mail address">
+							<p class="help-block text-danger"></p>
+						</div>
+					</div>
+					<div class="row control-group">
+						<div class="form-group col-xs-12 floating-label-
+						form-group controls">
+							<label for="message">Phone Number</label>
+							<texarea rows="5" class="form-control" 
+							placeholder="Phone Number" id="email" 
+							required="" data-validation-required-message="plase
+							 enter your phone number"></texarea>
+							<p class="help-block text-danger"></p>
+						</div>
+					</div>
+					<div class="row control-group">
+						<div class="form-group col-xs-12 floating-label-form-group
+						 controls">
+							<label for="message">Message</label>
+							<textarea name="" id="message" 
+							cols="30" rows="5" class="form-control"
+							 placeholder="Message" 
+							 required="" data-validation-required-message="plase
+							  enter a message"></textarea>
+							<p class="help-block text-danger"></p>
+						</div>
+					</div>
+					<br>
+					<div id="succes"></div>
+					<div class="row">
+						<div class="form--group col-xs-12"><button type="submit"
+						 class="btn btn-succes btn-lg">Send</button></div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+			</xmp>
+		</div>
+	</section>
+	
+<!-- --------------------------- -->
+
+<h2>Footer</h2>
+	<section>
+		<div class="ejemplo">	
+footer.textcenter>(div.footer-above>div.container>div.row>(div.footer-col.col-md-4>h3{location}+p{3481 Melrose Place}>br{Beverly Hills, CA 90210})+(div.footer-col.col-md-4>h3{Around The Web}+ul.list-inline>(li>a[href="#"].btn-social.btn-outline>span.sr-only{Facebook}+i.fa.fa-faw.fa-facebook)+(li>a[href="#"].btn-social.btn-outline>span.sr-only{Google Plus}+i.fa.fa-faw.fa-Google-plus)+(li>a[href="#"].btn-social.btn-outline>span.sr-only{twiter}+i.fa.fa-faw.fa-twiter)+(li>a[href="#"].btn-social.btn-outline>span.sr-only{Linked in}+i.fa.fa-faw.fa-linkedin)+(li>a[href="#"].btn-social.btn-outline>span.sr-only{Dribble}+i.fa.fa-faw.fa-Dribble))+div.footer-col.col-md-4>h3{About freelancer}+p{Freelancer is a free to use, open source Bootstraptheme created by}>a[href="http://startbootstrap.com"]{Start Bootstrap})+div.footer-below>div.container>div.row>div.col-lg-12{Copyright &copy; your website 2017}
+		</div>
+		<div class="resultado">
+			<xmp>
+<footer class="textcenter">
+		<div class="footer-above">
+			<div class="container">
+				<div class="row">
+					<div class="footer-col col-md-4">
+						<h3>location</h3>
+						<p>3481 Melrose Place<br>Beverly Hills, CA 90210</br></p>
+					</div>
+					<div class="footer-col col-md-4">
+						<h3>Around The Web</h3>
+						<ul class="list-inline">
+							<li><a href="#" class="btn-social btn-outline"><span 
+								class="sr-only">Facebook</span><i class="fa 
+								fa-faw fa-facebook"></i></a></li>
+							<li><a href="#" class="btn-social btn-outline"><span 
+								class="sr-only">Google Plus</span><i class="fa 
+								fa-faw fa-Google-plus"></i></a></li>
+							<li><a href="#" class="btn-social btn-outline"><span 
+								class="sr-only">twiter</span><i class="fa fa-faw 
+								fa-twiter"></i></a></li>
+							<li><a href="#" class="btn-social btn-outline"><span 
+								class="sr-only">Linked in</span><i class="fa 
+								fa-faw fa-linkedin"></i></a></li>
+							<li><a href="#" class="btn-social btn-outline"><span 
+								class="sr-only">Dribble</span><i class="fa 
+								fa-faw fa-Dribble"></i></a></li>
+						</ul>
+					</div>
+					<div class="footer-col col-md-4">
+						<h3>About freelancer</h3>
+						<p>Freelancer is a free to use, open source 
+							Bootstraptheme created by<a href="http://
+							startbootstrap.com">Start Bootstrap</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-below">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">Copyright &copy; your website 2017</div>
+				</div>
+			</div>
+		</div>
+	</footer>	
+			</xmp>
+		</div>
+	</section>
+	
+<!-- --------------------------- -->
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script>
+
+		$(document).ready(function(){
+			$('.resultado').hide();
+			$('section').on('click', '.ejemplo', function(event){
+				event.preventDefault();
+				$(this).next('.resultado').slideToggle(1200)
+			});
+
+		});
+
+
+	</script>
+</body>
+</html>
